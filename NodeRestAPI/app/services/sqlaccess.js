@@ -2,9 +2,9 @@
 
 var Connection = require('tedious').Connection;
 var config = {  
-        userName: 'gisappserverdev',  
-        password: 'GISAPPSERVERDEVAdmin!',  
-        server: 'gisappserverdev\sqlexpress',  
+        userName: '',  
+        password: '',  
+        server: '',  
         // If you are on Microsoft Azure, you need this:  
         options: {encrypt: true, database: 'TEST'}  
     };  
